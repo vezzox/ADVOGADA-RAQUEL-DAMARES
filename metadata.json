@@ -1,0 +1,6 @@
+{
+  "name": "Salário-Maternidade Raquel Damares",
+  "description": "Se você teve filho nos últimos 5 anos, é autônoma, MEI, desempregada ou trabalhadora rural, faça uma análise gratuita e descubra se tem direito ao Salário-Maternidade com a especialista Dra. Raquel Damares.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

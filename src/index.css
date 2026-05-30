@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", Georgia, ui-serif, serif;
+  
+  /* Clean Minimalism Luxury Color Palette: Elegant deep navy, rich gold accents, wide negative spaces */
+  --color-navy-50: #f4f6fc;
+  --color-navy-100: #e5ebf8;
+  --color-navy-200: #cbd7f1;
+  --color-navy-300: #a2bbe2;
+  --color-navy-400: #7196cf;
+  --color-navy-500: #4c74bb;
+  --color-navy-600: #385aaa;
+  --color-navy-700: #2b4588;
+  --color-navy-800: #1d2e5f;
+  --color-navy-900: #002147; /* Exact matches the requested Clean Minimalism template */
+  --color-navy-950: #001229;
+  
+  --color-gold-50: #faf7f2;
+  --color-gold-100: #f5eedf;
+  --color-gold-200: #eaddbe;
+  --color-gold-300: #dbca98;
+  --color-gold-400: #c5a059; /* Exact matches the requested Clean Minimalism template */
+  --color-gold-500: #b58d44;
+  --color-gold-600: #9c7334;
+  --color-gold-700: #7e5a29;
+  --color-gold-800: #654622;
+  --color-gold-900: #54391e;
+  --color-gold-950: #301f0e;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #ffffff;
+    color: #1a2b3c;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+}
+
